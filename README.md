@@ -18,7 +18,7 @@ Optional but recommended extensions:
 - Material Icon Theme
 
 To start the app:
-Open command line and cd to the folder then type: npm start
+Open command line and cd to the folder then type: npm start (if it doesnt work use expo start)
 
 To stop the app:
 CTRL + C
