@@ -1,6 +1,9 @@
 # Spotstitch-Mobile
 Spotstitch Mobile App Repo
 ---------------------------------------------------------------------
+To start the app:
+npm run ---> expo start --web
+
 Must ensure using node V 12 or higher:
 
 Open terminal and write: node -v 
@@ -16,9 +19,6 @@ Make sure to also have the following extension on VS Code:
 Optional but recommended extensions:
 - Prettier - Code formatter
 - Material Icon Theme
-
-To start the app:
-Open command line and cd to the folder then type: npm start (if it doesnt work use expo start)
 
 To stop the app:
 CTRL + C
