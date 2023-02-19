@@ -4,6 +4,7 @@ import { NavigationContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack'
 import { theme } from './src/core/theme'
 import {
+  LoadingScreen,
   StartScreen,
   LoginScreen,
   RegisterScreen,
@@ -18,11 +19,12 @@ export default function App() {
     <Provider theme={theme}>
       <NavigationContainer>
         <Stack.Navigator
-          initialRouteName="StartScreen"
+          initialRouteName="LoadingScreen"
           screenOptions={{
             headerShown: false,
           }}
         >
+          <Stack.Screen name="LoadingScreen" component={LoadingScreen} />
           <Stack.Screen name="StartScreen" component={StartScreen} />
           <Stack.Screen name="LoginScreen" component={LoginScreen} />
           <Stack.Screen name="RegisterScreen" component={RegisterScreen} />
