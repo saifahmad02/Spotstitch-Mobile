@@ -11,7 +11,7 @@ export default function StartScreen({ navigation }) {
       <Logo />
       <Header>Login Template</Header>
       <Paragraph>
-        The easiest way to start with your amazing application.
+        Welcome to Spotstitch
       </Paragraph>
       <Button
         mode="contained"
