@@ -6,7 +6,6 @@ const categories = [
   'Politics',
   'Entertainment',
   'Business',
-  'Technology',
 ];
 
 const CategoryList = ({ onSelectCategory }) => {
