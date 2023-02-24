@@ -4,7 +4,7 @@ import { createMaterialTopTabNavigator } from '@react-navigation/material-top-ta
 import Post from '../components/Post';
 import ImageGrid from '../components/ImageGrid';
 import Categories from '../components/Categories';
-
+import Settings from './Settings';
 
 const Tab = createMaterialTopTabNavigator();
 
@@ -64,13 +64,14 @@ const Dashboard = () => (
   <Tab.Navigator>
     <Tab.Screen name="Personal" component={MyPostsScreen} />
     <Tab.Screen name="Events" component={FavoritesScreen} />
+    <Tab.Screen name="Settings" component={Settings} />
   </Tab.Navigator>
 );
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-  },
+  }
 });
 
 export default Dashboard;

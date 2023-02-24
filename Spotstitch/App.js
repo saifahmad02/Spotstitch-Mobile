@@ -10,6 +10,7 @@ import {
   RegisterScreen,
   ResetPasswordScreen,
   Dashboard,
+  Settings,
 } from './src/screens'
 import TrendingScreen from './src/screens/TrendingScreen';
 import PostScreen from './src/screens/PostScreen'
